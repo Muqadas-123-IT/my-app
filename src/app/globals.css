@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading1 {
+    font-size: 24px; /* Adjust for responsiveness */
+    font-weight: bold; /* Make it bold */
+    text-align: center; /* Center the text horizontally */
+    margin: 0 auto; /* Center the heading block in its parent */
+    color: #000; /* Default color */
+    
+  }
+  
+  .heading2 {
+    font-size: 12px; /* Adjust for responsiveness */
+    font-weight:400; /* Make it bold */
+    text-align: center; /* Center the text horizontally */
+    margin: 0 auto; /* Center the heading block in its parent */
+    color: #737373; /* Default color */
+    
+  }
+  @import '@fortawesome/fontawesome-free/css/all.min.css';
+  
