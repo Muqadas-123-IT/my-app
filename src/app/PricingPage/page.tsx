@@ -106,7 +106,7 @@ const PricingPage = () => {
       <Brands/>
 
       
-      <div className=" text-center pt-24">
+      {/* <div className=" text-center pt-24">
 <h1 className="font-bold text-[40px]">Pricing FAQs
 </h1>
 <p className="font-semibold text-[#737373]">Problems trying to resolve the conflict between <br />
@@ -196,17 +196,18 @@ nostrum met.</p>
 dolor do met sent. RELIT official consequent door ENIM 
 RELIT Mollie. Excitation venial consequent sent 
 nostrum met.</p>
-        </div>
+        </div> */}
 
          
 
 
 
 
+{/* 
+</div>
 
-      </div>
-
-      </div>
+      </div> */}
+        <PricingFAQ/>
       <div className="text-center mt-20 mb-20">
 <h1 className="text-[40px] font-[700]">Start your 14 days free trial</h1>
 <p className=" text-[16px] font-[700] text-[#737373] mt-5">Met minim Mollie non desert Alamo est sit cliquey dolor <br />
@@ -221,7 +222,7 @@ do met sent. RELIT official consequent.</p>
                   <Linkedin size={24} />
                 </div>
            </div>
-           <PricingFAQ/>
+         
     </div>
 
     
