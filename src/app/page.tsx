@@ -21,6 +21,7 @@ import Contact from "@/app/Contactus/page";
 import Contactus from "@/app/Contactus/page";
 import ContactUs2 from "@/app/Contactus2/page";
 import Navbar3 from "@/components/Navbar3/page";
+import ProductCards from "./cart/page";
 
 
 
@@ -36,6 +37,7 @@ export default function Home() {
      <Fourth/>
      <Fifth/>
      <FeaturedPost/>  
+     <ProductCards />
    
 
     </div> 
